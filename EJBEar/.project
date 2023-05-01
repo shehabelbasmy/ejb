@@ -3,9 +3,10 @@
 	<name>EJBEar</name>
 	<comment></comment>
 	<projects>
-		<project>EJBWeb</project>
 		<project>EJBBean</project>
 		<project>EJBBeanClient</project>
+		<project>EJBWeb</project>
+		<project>JPA</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -36,8 +36,8 @@
   if(cart == null)
   {
     InitialContext ct = new InitialContext();
-    //ShoppingCartRemote scart = 
-      //  (ShoppingCartRemote) ct.lookup("java:global/EJBEar/EJBBean/ShoppingCart!tube.codingexamples.ejb.stateful.ShoppingCartRemote");
+    ShoppingCartRemote scart = 
+      (ShoppingCartRemote) ct.lookup("java:global/EJBEar/EJBBean/ShoppingCart!tube.codingexamples.ejb.stateful.ShoppingCartRemote");
     session.setAttribute("sessionShoppingCart", scart);
   }
 

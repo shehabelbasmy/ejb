@@ -3,6 +3,6 @@
   <runtime name="WildFly 24.0 Runtime"/>
   <fixed facet="java"/>
   <fixed facet="jst.utility"/>
-  <installed facet="java" version="16"/>
   <installed facet="jst.utility" version="1.0"/>
+  <installed facet="java" version="11"/>
 </faceted-project>
